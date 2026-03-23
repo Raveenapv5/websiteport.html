@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raveena PV | Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #111827; /* rich black */
+      --secondary: #9ca3af; /* elegant gray */
+      --bg: #f9fafb;
+      --card: #ffffff;
+      --text: #1f2933;
+      --accent: #374151; /* dark slate */
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+
+    body {
+      background: #f9fafb;
+      color: var(--text);
+    }
+
+    .container {
+      width: 100%;
+      max-width: 100%;
+      margin: 0;
+      padding: 30px 60px;
+    }
+
+    .header {
+      text-align: center;
+      padding: 40px;
+      border-radius: 16px;
+      background: #111827;
+      color: #f9fafb;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    }
+
+    .about, .section {
+      margin-top: 25px;
+      background: var(--card);
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    }
+
+    .about { display: flex; gap: 20px; align-items: center; }
+
+    .profile-pic {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      border: 3px solid #e5e7eb;
+    }
+
+    h2 { color: var(--primary); margin-bottom: 10px; }
+
+    .cards {
+      margin-top: 25px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 16px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+      transition: 0.3s ease;
+      text-align: center;
+      border: 1px solid #e5e7eb;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+    }
+
+    ul { padding-left: 20px; }
+
+    .highlight {
+      margin-top: 25px;
+      background: #111827;
+      padding: 25px;
+      border-radius: 16px;
+      text-align: center;
+      color: #f9fafb;
+      font-weight: 500;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+    .footer { margin-top: 30px; text-align: center; font-size: 14px; opacity: 0.7; }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="header">
+      <h1>RAVEENA PV</h1>
+      <p>Full Stack Django Developer | AI Web App Developer</p>
+    </div>
+
+    <div class="about">
+      <img src="me.jpeg" alt="Raveena PV" class="profile-pic" />
+      <div>
+        <h2>About Me</h2>
+        <p>
+          Motivated Full Stack Developer with experience in building AI-powered web applications using Python and Django.
+          Passionate about UI/UX and creating impactful solutions.
+        </p>
+      </div>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <h3>College</h3>
+        <p>City Engineering College</p>
+        <p><strong>CGPA: 8.56</strong></p>
+      </div>
+      <div class="card">
+        <h3>PU</h3>
+        <p>AMC</p>
+        <p><strong>81%</strong></p>
+      </div>
+      <div class="card">
+        <h3>School</h3>
+        <p>Mother Teresa Public School</p>
+        <p><strong>89%</strong></p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>PCOD Management & Wellness Tracker:</strong> AI-based diet recommendation system with health tracking.</li>
+        <li><strong>Object Detection using ML:</strong> Built using TensorFlow, OpenCV with 98% accuracy.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>Python, Java, C, JavaScript</li>
+        <li>Django, HTML, CSS, Bootstrap</li>
+        <li>DBMS, OS, DSA, OOPS</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Full Stack Development – Parvam</li>
+        <li>DSA – Codedamn</li>
+        <li>Web Development – CodeWithHarry</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Achievements</h2>
+      <ul>
+        <li>Second Prize – Prompt Verse (Inter-College)</li>
+        <li>Built Li-Fi communication system</li>
+      </ul>
+    </div>
+
+    <div class="highlight">
+      <h2>My Strength</h2>
+      <p>Strong academic performance (8.56 CGPA) with hands-on AI + Web Development experience.</p>
+    </div>
+
+    <div class="footer">
+      © 2026 Raveena PV | Portfolio
+    </div>
+
+  </div>
+
+</body>
+</html>
